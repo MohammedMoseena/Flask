@@ -1,0 +1,48 @@
+/* General form styling */
+form {
+  display: flex; /* Arrange form elements horizontally */
+  flex-direction: column; /* Stack elements on top of each other */
+  width: fit-content; /* Adjust width to content */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Labels and inputs */
+label {
+  display: block; /* Make labels on separate lines */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate clickable button */
+  margin-top: 10px;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Informative paragraph */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}

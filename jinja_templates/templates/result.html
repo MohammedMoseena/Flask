@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+  </head>
+  <body>
+    <h1>Results are out</h1>
+   
+    <table border=2>
+      {# This is comment section #}
+      {% for key,value in result.items() %}
+        <tr>
+          <th>{{ key }}</th>
+          <th>{{ value }}</th>
+        </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
